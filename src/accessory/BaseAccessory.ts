@@ -138,7 +138,7 @@ class BaseAccessory {
 
         if (characteristic.value !== newValue && !(newValue instanceof Error)) {
           this.log.debug(
-            '[%s/%s/%s] Update value: %o => %o',
+            '[%s/%s/%s] Update teste1 value: %o => %o',
             service.constructor.name,
             service.subtype,
             characteristic.constructor.name,
